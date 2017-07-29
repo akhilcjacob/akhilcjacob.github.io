@@ -1,8 +1,8 @@
 /*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+* Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+* Copyright 2013-2016 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
 html,
 body {
   height: 100%;
@@ -146,6 +146,9 @@ aside {
     color: #F05F40;
   }
 }
+img{
+
+}
 header {
   position: relative;
   width: 100%;
@@ -162,7 +165,7 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 100px 30px 100px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -177,9 +180,9 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255);
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 125px;
 }
 @media (min-width: 768px) {
   header {
