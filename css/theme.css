@@ -1,4 +1,8 @@
 /*!
+ * This file is a modfiied by AKHIL JACOB and is based off of the css file created by Start Boostrap
+*/
+
+/*!
 * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
 * Copyright 2013-2016 Start Bootstrap
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -55,7 +59,7 @@ p {
 .bottomAlign{
   position:relative;
    bottom:0%;
-   top:70%;
+   top:71%;
 }
 section {
   padding: 100px 0;
@@ -142,7 +146,7 @@ aside {
   .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #eb3812;
   }
-  .navbar-default.affix .nav > li > a,
+
   .navbar-default.affix .nav > li > a:focus {
     color: #222222;
   }
@@ -445,7 +449,6 @@ html, body {
 .parallax-education{
   /* The image used */
   background-image: url("../images/education.jpg");
-
   height: 1000px;
 
   /* Create the parallax scrolling effect */
