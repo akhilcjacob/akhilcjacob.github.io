@@ -394,7 +394,8 @@ fieldset[disabled] .btn-primary.active {
   text-transform: uppercase;
 }
 .btn-xl {
-  padding: 15px 30px;
+  padding: 5px 15px 10px 15px;
+  font-size: 25px;
 }
 ::-moz-selection {
   color: white;
