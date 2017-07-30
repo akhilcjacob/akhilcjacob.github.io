@@ -52,6 +52,11 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+.bottomAlign{
+  position:relative;
+   bottom:0%;
+   top:70%;
+}
 section {
   padding: 100px 0;
 }
@@ -397,6 +402,10 @@ fieldset[disabled] .btn-primary.active {
   padding: 5px 15px;
   font-size: 25px;
 }
+.btn-text {
+  padding:15px;
+  font-size: 13px;
+}
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -415,74 +424,33 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-body {
+html, body {
+  height: 100%;
   webkit-tap-highlight-color: #222222;
 }
-.container {
-  max-width: 960px;
-  margin: 0 auto;
+.full{
+  height: 100%;
 }
-/* ============================================================
-  SECTIONS
-============================================================ */
-section.module:last-child {
-  margin-bottom: 0;
-}
-section.module h2 {
-  margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
-}
-section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-}
-section.module p:last-child {
-  margin-bottom: 0;
-}
-section.module.content {
-  padding: 40px 0;
-}
-section.module.parallax {
-  height: 600px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+.parallax-header{
+  /* The image used */
+  background-image: url("../images/main_page_background.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
-  line-height: 600px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-section.module.parallax-1 {
-  background-image: url("../images/main_page_background.jpg");
-}
-section.module.parallax-2 {
-  background-image: url("../images/main_page_background.jpg");
-}
-section.module.parallax-3 {
-  background-image: url("../images/main_page_background.jpg");
-}
+.parallax-education{
+  /* The image used */
+  background-image: url("../images/education.jpg");
 
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
