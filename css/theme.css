@@ -1,5 +1,5 @@
 /*!
- * This file is a modfiied by AKHIL JACOB and is based off of the css file created by Start Boostrap
+* This file is a modfiied by AKHIL JACOB and is based off of the css file created by Start Boostrap
 */
 
 /*!
@@ -16,7 +16,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: rgb(5, 94, 160);
   border-width: 3px;
   max-width: 50px;
 }
@@ -27,7 +27,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: rgb(5, 94, 160);
 }
 a:hover,
 a:focus {
@@ -47,7 +47,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: rgb(5, 94, 160);
 }
 .bg-dark {
   background-color: #222222;
@@ -56,9 +56,9 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
-.bottomAlign{
+.bottom-align{
   position:relative;
-   top:70%;
+  top:70%;
 }
 section {
   padding: 100px 0;
@@ -78,7 +78,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: rgb(5, 94, 160);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -102,11 +102,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: rgb(5, 94, 160);
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: rgb(5, 94, 160) !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -138,7 +138,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: rgb(5, 94, 160);
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -151,7 +151,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: rgb(5, 94, 160);
   }
 }
 img{
@@ -292,7 +292,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: rgb(5, 94, 160);
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -348,8 +348,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: rgb(5, 94, 160);
+  border-color: rgb(5, 94, 160);
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -361,8 +361,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color:  rgb(5, 94, 160);
+  border-color: rgb(5, 94, 160);
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -387,11 +387,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: rgb(5, 94, 160);
+  border-color: rgb(5, 94, 160);
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: rgb(5, 94, 160);
   background-color: white;
 }
 .btn {
@@ -435,6 +435,7 @@ html, body {
   height: 100%;
 }
 .parallax-header{
+
   /* The image used */
   background-image: url("../images/main_page_background.jpg");
   /* Set a specific height */
@@ -445,24 +446,18 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax-education{
-  /* The image used */
+.education-section{
   background-image: url("../images/education.jpg");
-  height: 1000px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
 }
-#timeline {
+
+#cd-timeline {
   position: relative;
   padding: 2em 0;
   margin-top: 2em;
   margin-bottom: 2em;
 }
-#timeline::before {
+#cd-timeline::before {
   /* this is the vertical line */
   content: '';
   position: absolute;
@@ -470,8 +465,9 @@ html, body {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: rgb(5, 94, 160);
 }
+
 .cssanimations .cd-timeline-img.is-hidden {
   visibility: hidden;
 }
