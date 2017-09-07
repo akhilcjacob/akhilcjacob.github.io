@@ -45,6 +45,15 @@
         distance: '0px'
     }, 300);
 
+    $(document).ready(function() {
+        $('.block:not(.expanded)').on('click', function(i){
+            $(this).toggleClass('expanded');
+            $('.window').toggleClass('expanded');
+        });
+    });
+
+
+
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
         delegate: 'a',
@@ -60,11 +69,11 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
-   $(window).on('scroll', function(){
-   	$timeline_block.each(function(){
-   		if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
-   			$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
-   		}
-   	});
-   });
+    $(window).on('scroll', function(){
+        $timeline_block.each(function(){
+           if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+              $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+          }
+      });
+    });
 })(jQuery); // End of use strict
