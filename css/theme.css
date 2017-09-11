@@ -116,6 +116,7 @@ aside {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -376,7 +377,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
 .btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
+.btn-primary[disabled]:hover,r
 fieldset[disabled] .btn-primary:hover,
 .btn-primary.disabled:focus,
 .btn-primary[disabled]:focus,
@@ -444,8 +445,8 @@ html, body {
   /* Set a specific height */
   height: 100%;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -688,7 +689,8 @@ MOD: MARKER OUTLINE
 
 .expanding-grid {
   position: relative;
-  width: 100%;
+  left:15%;
+  width:70%;
 }
 
 .expanding-grid .links {
@@ -734,12 +736,12 @@ MOD: MARKER OUTLINE
 
 .expanding-grid .links > li a.active {
   margin-top: 0;
-  border-bottom: 3px solid rgba(63, 74, 82, .95);
+  border-bottom: 3px solid rgb(5, 94, 160);
 }
 
 .expanding-grid .links > li a.active:after {
   background-color: transparent;
-  border-bottom: 0.75em solid rgba(63, 74, 82, .95);
+  border-bottom: 0.75em solid rgb(5, 94, 160);
   border-left: 0.75em solid transparent;
   border-right: 0.75em solid transparent;
   bottom: -1.1em;
@@ -750,20 +752,22 @@ MOD: MARKER OUTLINE
   position: absolute;
   width: 0;
 }
-
 .expanding-grid .links > li {
-  width: 33.33333%;
+  width: 100%;
 }
-
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 600px) {
+  .expanding-grid .links > li {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 900px) {
   .expanding-grid .links > li {
     width: 50%;
   }
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .expanding-grid .links > li {
-    width: 100%;
+    width: 25%;
   }
 }
 
@@ -787,7 +791,7 @@ MOD: MARKER OUTLINE
 }
 
 .expanding-grid .hentry {
-  background: rgba(63, 74, 82, .95);
+  background: rgb(5, 94, 160);
   box-sizing: border-box;
   clear: both;
   color: #fff;
