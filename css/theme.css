@@ -458,3 +458,17 @@ html, body {
   background-size: cover;
 }
 
+.button-blue {
+   border: 4px;
+   border-style: solid;
+   border-color: rgb(5, 94, 160);
+   background-color: transparent;
+   height:50px;
+   width:50px;
+   cursor:pointer;
+}
+
+.button-blue:hover {
+   background-color: rgb(5, 94, 160);
+   color:white;
+}
