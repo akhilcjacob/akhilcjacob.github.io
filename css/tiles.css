@@ -78,12 +78,7 @@
 
   }
 }
-@media only screen and (min-width: 1000px) {
-  .expanding-grid .links > li {
-    width: 33.33333%;
-  
-  }
-}
+
 
 .expanding-grid .spacer {
   background-color: #888;
