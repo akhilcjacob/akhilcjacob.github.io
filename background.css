@@ -2,7 +2,7 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB,#46d523,#25a006);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -54,4 +54,5 @@ h6 {
 	top: 45%;
 	right: 0;
 	left: 0;
+	font-size: 3.5vw;
 }
